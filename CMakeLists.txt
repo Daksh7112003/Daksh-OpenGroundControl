@@ -25,6 +25,9 @@ qt_add_qml_module(appDaksh-OpenGroundControl
     QML_FILES
     main.qml
     qml/FlyView.qml
+    QML_FILES qml/PlanView.qml
+    QML_FILES qml/Video.qml
+    QML_FILES qml/Map.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
